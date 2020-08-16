@@ -23,6 +23,10 @@ time, mark, audio, video {
 	box-sizing: border-box;
 }
 
+body{
+	font-family: cheltenham, georgia, 'times new roman', times, serif;
+}
+
 .nav-wrapper{
 	display: flex;
 	justify-content: space-between;
@@ -43,7 +47,7 @@ time, mark, audio, video {
 
 .nav-wrapper .left-nav span{
 	font-size: 14.25px;
-	font-family: nyt-franklin, helvetica,arial, sans-serif;
+	font-family: franklin, helvetica, arial, sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.7px
 	line-height: 19px;
@@ -61,7 +65,7 @@ time, mark, audio, video {
 	margin-right: 10px;
 	padding: 10px;
 	font-size: 11px;
-	font-family: nyt-franklin, helvetica,arial, sans-serif;
+	font-family: franklin, helvetica, arial, sans-serif;
 	font-weight: 700;
 	line-height: 11px;
 	letter-spacing: 0.05em;
@@ -70,4 +74,49 @@ time, mark, audio, video {
 	background-color: rgb(86, 123, 149);
 	border-radius: 3px;
 	border: 1px solid rgb(50, 104, 145); 
+}
+
+.main{
+	display: block;
+}
+
+.article-header{
+	display: block;
+	margin-top: 60px;
+	width: 100%;
+}
+
+.article-header .headline{
+	position: relative;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 2.5rem;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.article-header .headline-img{
+	position: relative;
+	width: 945px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+
+.article-header .headline-img img{
+	width: 945px;
+}
+
+.article-header .headline-img figcaption{
+	color: #666;
+	margin: 10px 20px 0 0;
+	text-align: left;
+	line-height: 1.25rem;
+	font-size: 1.05rem;
+}
+
+.article-header .headline-img span{
+	color: #888;
+	font-size: 0.9rem;
 }
