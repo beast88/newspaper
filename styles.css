@@ -152,7 +152,7 @@ figcaption span, .video-subcaption{
 	font-size: 14px;
 }
 
-.article-info .social-links i{
+.social-links i{
 	background-color: #eee;
 	border: 1px solid #eee;
 	border-radius: 50%;
@@ -161,7 +161,7 @@ figcaption span, .video-subcaption{
 	padding: 5px;
 }
 
-.article-info .social-links .rotate{
+.social-links .rotate{
 	transform: scale(-1, 1);
 }
 
@@ -229,4 +229,19 @@ figcaption span, .video-subcaption{
 	grid-column: span 4;
 	font-family: franklin, helvetica, arial, sans-serif;
 	font-size: .875rem;
+}
+
+.comments{
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+.comments button{
+	width: 330px;
+	background-color: rgb(86, 123, 149);
+	color: white;
+	font-weight: 600;
+	border: 1px solid rgb(50, 104, 145);
+	border-radius: 3px;
 }
