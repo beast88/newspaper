@@ -120,3 +120,41 @@ body{
 	color: #888;
 	font-size: 0.9rem;
 }
+
+.main-article{
+	position: relative;
+	width: 600px;
+	margin: 15px auto;
+	border: 1px solid red;
+	color: #333;
+}
+
+.article-info{
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr;
+	align-items: center;
+}
+
+.article-info .author{
+	grid-column: span 2;
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: 1.25rem;
+}
+
+.article-info .date{
+	font-size: 14px;
+}
+
+.article-info .social-links i{
+	background-color: #eee;
+	border: 1px solid #eee;
+	border-radius: 50%;
+	font-size: 18px;
+	margin-right: 14px;
+	padding: 5px;
+}
+
+.article-info .social-links .rotate{
+	transform: scale(-1, 1);
+}
