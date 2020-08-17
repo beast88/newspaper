@@ -132,7 +132,6 @@ body{
 	position: relative;
 	width: 600px;
 	margin: 15px auto;
-	border: 1px solid red;
 	color: #333;
 }
 
@@ -164,4 +163,50 @@ body{
 
 .article-info .social-links .rotate{
 	transform: scale(-1, 1);
+}
+
+.diagram{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 945px;
+	margin: 0 auto;
+	grid-gap: 15px;
+}
+
+.diagram .title{
+	grid-column: span 4;
+}
+
+.diagram .title h3{
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin-bottom: 2px;
+}
+
+.diagram .title p{
+	color: #666;
+	font-weight: 400;
+}
+
+.diagram .image{
+	width: 100%;
+}
+
+.diagram .caption span{
+	font-family: franklin, helvetica, arial, sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 300;
+}
+
+.diagram .caption .title{
+	font-weight: bold;
+	font-size: 11px;
+	letter-spacing: 0.05em;
+}
+
+.diagram .author{
+	grid-column: span 4;
+	font-family: franklin, helvetica, arial, sans-serif;
+	font-size: .875rem;
 }
