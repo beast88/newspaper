@@ -169,7 +169,7 @@ body{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	width: 945px;
-	margin: 0 auto;
+	margin: 0 auto 30px auto;
 	grid-gap: 15px;
 }
 
