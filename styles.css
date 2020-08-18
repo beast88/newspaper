@@ -245,3 +245,12 @@ figcaption span, .video-subcaption{
 	border: 1px solid rgb(50, 104, 145);
 	border-radius: 3px;
 }
+
+.more-articles{
+	font-weight: 700;
+	display: flex;
+}
+
+.more-articles h4{
+	font-family: franklin, helvetica, arial, sans-serif;
+}
