@@ -271,6 +271,48 @@ figcaption span, .video-subcaption{
 	margin-right: 20px;
 	width: calc(70% - 20px);
 	border-top: 1px solid black;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 20px;
+}
+
+.more-grid h4{
+	grid-column: span 3;
+}
+
+.more-grid .editors-picks{
+	padding: 20px 0 10px 0;
+	border-top: solid 1px black;
+	color: #333;
+	font-size: 1rem;
+}
+
+.more-grid .article-link{
+	padding-bottom: 30px;
+}
+
+.more-grid .article-link img{
+	width: 100%;
+}
+
+.article-link figcaption{
+	text-align: right;
+	margin: 3px 0 0 0;
+	padding-bottom: 4px;
+	font-size: 0.625rem;
+	color: rgb(153, 153, 153);
+}
+
+.article-link .article-title{
+	font-size: 1.125rem;
+	line-height: 22px;
+}
+
+.article-link .date{
+	letter-spacing: 0.3px;
+	color: rgb(153, 153, 153);
+	font-size: 0.75rem;
+	font-weight: 500;
 }
 
 .more-articles .most-popular{
