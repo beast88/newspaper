@@ -412,3 +412,15 @@ figcaption span, .video-subcaption{
 .subscribe .versions{
 	padding-top: 10px;
 }
+
+.bottom-bar ul{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.bottom-bar li{
+	font-family: franklin, helvetica, arial, sans-serif;
+	color: #666;
+	font-size: 11px;
+	padding-left: 20px;
+}
